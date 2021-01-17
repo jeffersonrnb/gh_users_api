@@ -1,0 +1,31 @@
+{
+  "name": "gh_users_api",
+  "version": "1.0.0",
+  "description": "API for Shaw and Partners test",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffersonrnb/gh_users_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffersonrnb/gh_users_api/issues"
+  },
+  "homepage": "https://github.com/jeffersonrnb/gh_users_api#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "consign": "^0.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
