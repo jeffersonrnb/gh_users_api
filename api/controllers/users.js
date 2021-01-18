@@ -21,7 +21,7 @@ module.exports = () => {
   const fetchAndResponse = (route, res) => {
     axios.get(server + route)
       .then(response => {
-        res.status(200).json(response.data)
+        res.status(200).json({ data: response.data })
       })
       .catch(error => {
         res.status(500).json(error)
