@@ -6,6 +6,6 @@ module.exports = app => {
   app.use(cors())
 
   app.route('/api/users').get(controller.listUsers);
-  app.route('/api/users/:username').get(controller.listUserDetails);
+  app.route('/api/users/:username/details').get(controller.listUserDetails);
   app.route('/api/users/:username/repos').get(controller.listUserRepos);
 }
